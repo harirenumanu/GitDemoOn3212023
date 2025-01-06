@@ -1,0 +1,11 @@
+# Deployed using manifest and Helm charts............
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      ports:
+      - containerPort: 80

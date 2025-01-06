@@ -1,0 +1,22 @@
+# Deployed using manifest file and Using Helm Charts.........
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: prod-rc
+  labels:
+    app: prod-rc  # It’s better to use a meaningful label here, like `app`
+spec:
+  replicas: 5
+  selector:
+    env: dev  # This is the label that will select Pods with `env=dev`
+  template:
+    metadata:
+      labels:
+        env: dev  # Ensure this label matches the selector
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - name: nginxport
+          containerPort: 80
