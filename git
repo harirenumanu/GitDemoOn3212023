@@ -1,5 +1,13 @@
 this is the demo regarding the git reset.
-
+git init
+git status
+git add . 
+git commit -m "made changes in git in helm"
+git remote add origin repo_name
+git push origin master
+git log ----> to check the latest logs q
+git branch dev -----> to create a branch
+git checkout -b dev ----> to create and into branch. 
 I am again practicing the git reset and revert. second commit 
 
 I am again changing the things to practice reset and revert third commit. 
