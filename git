@@ -1,6 +1,50 @@
-=============================================================================================================
+this is the demo regarding the git reset.
+git init
+git status
+git add . 
+git commit -m "made changes in git in helm"
+git remote add origin repo_name
+git push origin master
+git log ----> to check the latest logs q
+git branch dev -----> to create a branch
+git checkout -b dev ----> to create and into branch. 
+I am again practicing the git reset and revert. second commit 
 
-I am doing the changes because I want to know when the merge conficts raisesThis is regarding merge conficts 
+I am again changing the things to practice reset and revert third commit. 
+
+Case1:
+------
+1. You are writing code in dev branch but unfortunately you are changed to feauture. 
+2. you are entered git add . and git commit -m "added changes".
+3. Then the changes whatever you want to add in dev branch will be applied in feauture branch. 
+4. Eventhough you are came to again they wont appear. 
+
+
+I made a change becoz of git reset.
+e becoz of git reset.
+
+
+
+
+========================================================================================
+
+git stash --- changes saved temporarily
+git stash apply ---- Applies the most recent stash to your working directory but does not remove it from the stash list.
+git stash list ---- Shows the list of stashed changes. Each stash is labeled like stash@{0}, stash@{1}, etc., where stash@{0} is the most recent stash.
+git stash apply index_no ---- to apply the changes based on the index. 
+git stash pop --- applies the latest changes which temporarily saved and remove it from stash list. 
+git stash pop index_no ---- apply changes which are temporarily saved on particular index and remove it from stash list. 
+git stash drop index_no --- to remove a stash of a index from the stash list. 
+git stash clear --- to clear the stash. 
+git stash show --- display the changes in the most recent stash
+git stash show index_no --- displays the changes in the index. 
+git stash show -p stash@{n} --- display the content in the stash.
+
+======================================================================================
+
+
+
+This is regarding merge conficts 
 
 git checkout dev 
 git merge master 
@@ -12,9 +56,3 @@ same file and in that same line in two brances. Now you are trying to merge thos
 there will be a chance to get merge conflicts. 
 
 This is becoz git dont have an idea which version to include 
-
-To resolve that conflict, we need to collaborate with team, 
-and we need to solve it...
-
-======================================================================================
-

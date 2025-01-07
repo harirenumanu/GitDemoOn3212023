@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 This is regarding merge conficts 
 
 git checkout dev 
@@ -12,7 +12,3 @@ there will be a chance to get merge conflicts.
 
 This is becoz git dont have an idea which version to include 
 
-=======
-Hello, this is a file in the dev branch.
-I am adding some new text here.
->>>>>>> parent of 013a9b4 (resolved conflicts)
