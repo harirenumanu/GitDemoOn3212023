@@ -42,8 +42,6 @@ git stash show -p stash@{n} --- display the content in the stash.
 
 ======================================================================================
 
-
-
 This is regarding merge conficts 
 
 git checkout dev 
@@ -56,3 +54,5 @@ same file and in that same line in two brances. Now you are trying to merge thos
 there will be a chance to get merge conflicts. 
 
 This is becoz git dont have an idea which version to include 
+
+========================================================================================
