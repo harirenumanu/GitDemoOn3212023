@@ -1,7 +1,13 @@
-<<<<<<< HEAD
-Hello, this is a file in the dev branch.
-I am adding some new text here.
-=======
-Hello, this is a file in the feature branch.
-I am removing some old text here.
->>>>>>> master
+This is regarding merge conficts 
+
+git checkout dev 
+git merge master 
+
+from above two line you came to know that you are merging master into dev. 
+
+when you made changes for the 
+same file and in that same line in two brances. Now you are trying to merge those branches.
+there will be a chance to get merge conflicts. 
+
+This is becoz git dont have an idea which version to include 
+

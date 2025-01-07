@@ -1,1 +1,20 @@
-I am doing the changes because I want to know when the merge conficts raises
+=============================================================================================================
+
+I am doing the changes because I want to know when the merge conficts raisesThis is regarding merge conficts 
+
+git checkout dev 
+git merge master 
+
+from above two line you came to know that you are merging master into dev. 
+
+when you made changes for the 
+same file and in that same line in two brances. Now you are trying to merge those branches.
+there will be a chance to get merge conflicts. 
+
+This is becoz git dont have an idea which version to include 
+
+To resolve that conflict, we need to collaborate with team, 
+and we need to solve it...
+
+======================================================================================
+
