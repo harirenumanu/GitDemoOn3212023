@@ -1,0 +1,2 @@
+Hello, this is a file in the feature branch.
+I am removing some old text here.
